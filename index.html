@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+@keyframes bg-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
+  50% { box-shadow: 0 0 50px rgba(255, 255, 255, 0.8); }
+}
+
+@keyframes text-shine {
+  0%, 100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
+  50% { text-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+}
+
+@keyframes button-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
+  50% { transform: scale(1.1); box-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+}
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL to Iframe</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #urlFormContainer {
+            padding: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        /* Adjusted iframe height to maintain 16:9 aspect ratio */
+        #contentFrame {
+            width: 100%;
+            height: calc(100vw * 8 / 16); /* 16:8 aspect ratio */
+            border: none;
+        }
+        /* Popup styling */
+        #popupMessage {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #f8f8f8;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-radius: 8px;
+            z-index: 1000;
+        }
+        #popupMessage button {
+            background-color: #0088cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        /* Style for cancel button */
+        #popupMessage .cancel-button {
+            background-color: #ccc;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div id="urlFormContainer" style="display: none;">
+    <form id="urlForm">
+        <label for="urlInput">URL:</label>
+        <input type="text" id="urlInput" name="urlInput" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<iframe id="contentFrame" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen="true" scrolling="no" src= "https://crxcs.blogspot.com/p/tnt2.html"></iframe>
+
+We patience it will take sometime in loading the video 🔍
+
+<div style="margin: 0 auto; padding: 20px; background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); background-size: 400% 400%; animation: bg-animation 10s infinite; display: flex; justify-content: center; align-items: center; height: 50vh; font-family: Arial, sans-serif; overflow: hidden; max-width: 400px; border-radius: 15px;">
+  <div style="text-align: center; padding: 20px; border-radius: 10px; background: rgba(255, 255, 255, 0.1); box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 25px rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px); border: 2px solid rgba(255, 255, 255, 0.2); animation: glow 3s infinite;">
+    <h1 style="font-size: 1.5rem; color: #fff; margin: 10px 0; text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); animation: text-shine 3s infinite;">Join Our Telegram Channel</h1>
+    <p style="font-size: 1rem; color: #fff; margin: 10px 0;">Stay updated with the latest news and insights!</p>
+    <a href="https://t.me/+IXCKFIL7DE80MDc9" target="_blank" style="font-size: 1rem; color: #fff; text-decoration: none; padding: 8px 15px; border: 2px solid #fff; border-radius: 20px; transition: all 0.3s ease; animation: button-pulse 2s infinite; display: inline-block;">Join Now</a>
+  </div>
+</div>
+
+<style>
+@keyframes bg-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+  50% { box-shadow: 0 0 25px rgba(255, 255, 255, 0.8); }
+}
+
+@keyframes text-shine {
+  0%, 100% { text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); }
+  50% { text-shadow: 0 0 10px rgba(255, 255, 255, 1); }
+}
+
+@keyframes button-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 5px rgba(255, 255, 255, 0.7); }
+  50% { transform: scale(1.1); box-shadow: 0 0 10px rgba(255, 255, 255, 1); }
+}
+  </style>
+   
+<!-- END: Powered by Supercounters.com -->
+
+</body>
+</html>
